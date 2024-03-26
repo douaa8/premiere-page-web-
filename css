@@ -1,0 +1,110 @@
+body {
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-style:double;
+    background-image: url('image/mag.jpg');
+}
+h1{
+    font-size:x-large;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    text-decoration:double;
+    margin: 20%;
+    border-top: none;
+    padding: 2%;
+}
+legend
+{
+  font-style:italic;
+  font-size: larger;
+  font-weight:700;
+  color: brown;
+  margin-top: 20%;
+  padding-top: 0%;
+}
+ul{
+   list-style:lower-alpha;
+ 
+   padding: 2%;
+
+}
+a[ href="#s0"]{
+    
+    padding-right: 10%;
+    padding-left: 80%;
+   
+}
+label{
+    text-align: center;
+    color: blue;
+    
+}
+form {
+    margin: 2%;
+   
+}
+fieldset {
+    margin: 4%;
+    border-width: 0cm;
+}
+ol li {
+    text-align: left;
+    text-decoration:dashed;
+    font-size: x-large;
+}
+ul li {
+    text-align: left;
+    font-size: large;
+}
+hr{
+    border-width: 0cm;
+}
+ section [id="s1"]input {
+    margin: 5%;
+}
+       input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+           
+            border: 1px solid #ccc;/
+        }
+        input[type="reset"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin-top: 10px;
+        }
+        p {
+            text-align: center;
+            font-size: larger;
+            font-weight: 600;
+            margin: 5%;
+        }
+        span{
+            color: red;
+        }
+        img {
+            width: 50%;
+            height: 50%;
+        }
+       
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 800;
+            font-style: italic;
+        }
+        #s5 img {
+            width: 10%;
+            height: 10%;
+        }
