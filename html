@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+         <title>  Mes début avec la programmation web</title>
+         <link rel ="stylesheet" type="text/css" href="style.css">
+         
+    </head>
+    <body id="s0" >
+        
+       <ol >
+       <li> <a href="#s1">  information personnelles du candidat </a> </li>
+       <li> <a href="#s2" >  cursus de l etudiant </a></li>
+       <li> <a href="#s3"> Langages de programmation </a></li>
+       <li> <a href="#s4"> Exercice : Programme en c </a></li>
+       <li> <a href="#s5"> Vacances en Images  </a></li>
+    </ol> 
+    
+        <h1> les Etudiant </h1>
+     <form>
+         <fieldset>
+         <section id="s1">
+             
+            <legend> information personnelles du candidat</legend>
+            <label> le Nom:</label> 
+            <input type="text" placeholder="nom"> <br>
+            <label> le Prenom: </label>
+            <input type="text" placeholder="prenom"> <br>
+            <label> la Date de naissance:</label>
+            <input type="date" placeholder="Date de naissance"> <br>
+            <label> Adresse :</label>
+           <input type="text" placeholder="Adresse"><br>
+           <label> Adresse email :</label>
+           <a> <id="lien"><input type="email" placeholder="Adresse email"> </id> </a> <br>
+           <label> NUM telephone :</label>
+           <input type="text" placeholder="Num telephone"><br>
+           <label> Situation Familiale:</label>
+            <select id="Situation Familiale" name="Situation_familiale"> <option value="marie">Marie </option> <option value="divorce"> Divorce  </option> <option value="celibataire"> Celibataire </option> <option value="veuf"> veuf </option> <option value="separe"separe> </option></select><bR>
+            
+                 <input type="reset" value="valider">
+        
+        </section>
+    </fieldset>
+    <hr>
+    </form>
+    <form>
+        <fieldset>
+            <section id="s2">
+             <legend> cursus de l etudiant </legend>
+             <ol>
+                <li> cycle primaire:
+                    <ul>
+                   <li><label> Ecole :</label></li>
+                   <input  type="text" placeholder="Nom_etablissement ">
+                   <li><label> Annee de premiere inscription : </label></li>
+                   <input  type="month" >
+                </ul> 
+            </li>
+               <li>  cycle Moyen :
+                   <ul>
+                    <li><label> CEM :</label></li>
+                     <input type="text" placeholder="Nom_etablissement">
+                     <li> <label> Annee:</label></li>
+                     <input type="month" >
+                   </ul>
+               </li> 
+               <li> cycle Secondaire :
+                 <ul> 
+                    <li> <label> Lycee :</label></li>
+                    <input type="text" placeholder="Nom_etablissement">
+                    <li> <label> Annee : </label></li>
+                    <input type="month">
+                    <li> <label> BAC </label></li>
+                    <select id="Bac" name="BAC"><option value="MATHS" >MATHS </option> <option value="Sciences de la Nature et de la Vie"> Sciences de la Nature et de la Vie </option> <option value="Maths Technique">Maths Technique</option></select>
+                    
+                 </ul>
+               </li>
+               <li> cycle universitaire :
+                <ul>
+                    <li> <label>NOM:</label></li>
+                    
+                     <input type="text" placeholder="Nom_etablissement">
+                     <li> <label>Annee : </label></li>
+                     <input type="month" >
+                     
+                </ul>
+               </li>
+            </ol>
+            </section> 
+        </fieldset>
+
+    </form>
+<hr>
+
+    <form>
+        <fieldset>
+        <section id="s3">
+            <legend> Langages de programmation</legend>
+            <ul>
+                <li> c </li>
+                <li> java </li>
+                <li> camel </li>
+            </ul>
+
+        </section>
+    </fieldset>
+    </form>
+    <hr>
+    <form>
+    <fieldset>
+        <section id="s4">
+        <legend> Exercice : Programme en c </legend>
+        <pre>
+        <code  >
+            <span>#include</span>&lt;stdio.h&gt;;
+
+             <span >int main </span>() {
+                <span >int  </span> M[100][100];
+                <span >int  </span>  i,j,n,m,som;
+                <span > printf </span>("donnez le nombre de ligne n&lt;100 ");
+                <span > scanf </span> ("%d",&n);
+                <span > printf </span>("donnez le nombre de colone m&lt;100 ");
+                <span > scanf </span> ("%d",&m);
+                <span > for</span>(i=0;i&lt;n;i<sup>++</sup>)
+                {
+                    <span > for</span>(i=0;i&lt;m;i<sup>++</sup>)
+                {
+                           <span > printf </span>("donnez la valeur  ");
+                           <span > scanf </span> ("%d",&M);
+                }
+                }
+                som=0;
+                <span > for</span>(i=0;i&lt;n;i<sup>++</sup>)
+                {
+                    <span > for</span>(i=0;i&lt;m;i<sup>++</sup>)
+                {
+                           <span > if </span>(M[i][j]&gl;0);
+                           {
+                             som=som+M[i][j];
+                           }
+                }
+                }
+                <span > printf </span>("la somme des nombre positive est ",som);
+
+            }
+        </code>
+    </pre>
+</section>
+    </fieldset>
+    
+</form>
+<form>
+<p>
+    Le code d’une page web doit être mis entre 
+    les deux balises   &lt;HTML&gt; &lt;/HTML&gt;  et il peut contenir du texte ou des formules 
+    mathématiques telle que : <br>  π<sub>i</sub> = &#945;(X<sub>2</sub>+Y<sub>2</sub>)<sup>K+1</sup> /&lambda;<SUP>i</SUP>
+    
+</p>
+</form>
+<form>
+    <fieldset>
+        <section id="s5">
+            <legend>  Vacances en Images :</legend>
+            <ul>
+                <li> Italie : </li>
+                 <a href="voyage.html#s6" ><img src="image/ital.jpg" width="10%" height="10%"></a>
+                <li> Japon :</li> 
+                <a href="voyage.html#s7" ><img src="image/jap.jpg"  width="10%" height="10%"></a>
+                <li>Algerie :</li>
+                <a href="voyage.html#s8" ><img src="image/alg.jpg"  width="10%" height="10%"></a>
+                <li> Arabie saoudite :</li>
+                <a href="voyage.html#s9" ><img src="image/mec.jpg"  width="10%" height="10%"></a>
+            </ul>
+        </section>
+    </fieldset>
+</form>
+
+<a href="#s0" > <input type="button" value=" ↑" > </a> 
+
+
+
+
+        <script>
+            // Récupération de tous les champs de texte et de textarea
+            var champs = document.querySelectorAll('input[type="text"], textarea,input[type="date"],input[type="address"],input[type="month"]');
+            
+            // Ajout d'un écouteur d'événement à chaque champ
+            champs.forEach(function(champ, index) {
+                // Lorsque la touche Entrée est enfoncée
+                champ.addEventListener('keypress', function(event) {
+                    if (event.keyCode === 13) {
+                        // Si ce n'est pas le dernier champ, passez au champ suivant
+                        if (index < champs.length - 1) {
+                            champs[index + 1].focus();
+                        } else {
+                            // Si c'est le dernier champ, revenez au premier champ
+                            champs[0].focus();
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
