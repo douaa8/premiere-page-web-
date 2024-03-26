@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+         <title>  voyages image </title>
+         <link rel ="stylesheet" type="text/css" href="style.css">
+         
+    </head>
+    <body>
+        <h1> voyage image </h1>
+        <form>
+            <fieldset>
+                <section id="s6">
+                    <legend> ITALIE :</legend>
+                         <img src="image/ital.jpg">
+                         <p>L'Italie est un pays de l'Europe du Sud-Ouest, qui possède des frontières avec France, la Suisse, l'Autriche, la Slovénie, le Vatican, et Saint-Marin. Au nord, il y a les Alpes. L'Italie possède un très grand accès à la mer Méditerranée : mer Tyrrhénienne à l'ouest, mer Ionienne au sud et mer Adriatique à l'est. L'Italie est un pays à la forme allongée qui fait penser à une botte et qui comporte deux grandes îles : la Sicile et la Sardaigne. À côté de ses grandes iles, il y a de nombreuses petites îles. C'est un pays surtout montagneux, qui ne comprend qu'une seule grande plaine, celle du Pô, au nord. Le climat est montagnard et continental au nord, mais méditerranéen dans la « botte ».</p>
+                </section>
+                <section id="s7">  
+                    <legend> JAPON:</legend>
+                        <img src="image/jap.jpg">
+                        <p>Le Japon forme, depuis 1945, un archipel dont le nombre d'îles varie, suivant les estimations, de 6 852 à 14 125 îles (de plus de 100 m2), dont les quatre plus grandes sont Hokkaidō, Honshū, Shikoku et Kyūshū, représentant à elles seules 95 % de la superficie terrestre du pays. L'archipel s'étend sur plus de trois mille kilomètres. La plupart des îles sont montagneuses, parfois volcaniques. Ainsi, le plus haut sommet du Japon, le mont Fuji (3 776 m), est un volcan dont la dernière éruption a eu lieu en 1707.
+
+                          <bR>  Le Japon est le onzième pays le plus peuplé du monde, avec un peu plus de 124 millions d'habitants pour 377 975 km2 (329 hab./km2), dont l'essentiel est concentré sur les étroites plaines littorales du sud de Honshū et du nord de Shikoku et Kyūshū, formant un ensemble pratiquement urbanisé en continu appelé « Mégalopole japonaise » ou « Taiheiyō Belt » (太平洋ベルト, Taiheiyō beruto?, littéralement « ceinture Pacifique »). Le Grand Tokyo, qui comprend la capitale Tokyo et plusieurs préfectures environnantes, est la plus grande région métropolitaine du monde, avec plus de 35 millions d'habitants. La ville a été première place financière mondiale en 1990.</p>
+
+                </section>
+                <section id="s8">
+                    <legend> ALGERIE:</legend>
+                       <img src="image/alg.jpg">
+                       <p> L'Algérie  est un pays d’Afrique du Nord faisant partie du Maghreb. Depuis 1962, elle est nommée en forme longue République algérienne démocratique et populaire, abrégée en (RADP) . Sa capitale est Alger, la ville la plus peuplée du pays, dans le Nord, sur la côte méditerranéenne.<bR>
+
+                        Au 1er janvier 2021, la population algérienne résidente avait atteint 44,6 millions d’habitants11. Avec une superficie de 2 381 741 km2, c'est le dixième plus grand pays au monde, c'est à la fois le plus grand pays d'Afrique, du monde arabe et du bassin méditerranéen. Elle partage plus de 6 343 km de frontières terrestres, avec la Tunisie au nord-est, la Libye à l'est, le Niger au sud-est, le Mali au sud-ouest, la Mauritanie et le Sahara occidental à l'ouest, et enfin le Maroc au nord-ouest12.</p>
+                       
+                </section>
+                <section id="s9"> 
+                    <legend> ARABIE SAOUDITE :</legend>
+                     <img src="image/mec.jpg">
+                     <p>L'Arabie saouditenote   est une monarchie absolue islamique dirigée par la dynastie des Saoud, depuis sa création en 1932 par Abdelaziz ibn Saoud. Peuplée de 35,95 millions d'habitants , occupant 80 % de la péninsule arabique, c'est le plus grand pays du Moyen-Orient et sa superficie de plus de deux millions de kilomètres carrés en fait aussi le deuxième des pays du monde arabe (après l'Algérie).
+
+                       <bR> La capitale et la plus grande ville de l'Arabie saoudite est Riyad, située dans la province du même nom, son unité monétaire est le riyal saoudien, sa langue officielle est l'arabe et sa religion d'État est l'islam sunnite.
+                        
+                       <bR> Le Royaume abrite les deux plus grands lieux saints de l'islam : la mosquée al-Harâm (à La Mecque) et la mosquée du Prophète (à Médine).</p>
+                </section>
+            </fieldset>
+        </form>
+        <a href="index.html #s0" > <input type="reset" value=" retour" > </a> 
+    </body>
